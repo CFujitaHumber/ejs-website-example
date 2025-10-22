@@ -31,6 +31,41 @@ nav ul li:first-child {
     margin-right: auto;
 }
 
+/** Home page */
+
+.big-welcome-container {
+    /* Layout */
+    display: flex;
+    height: 510px;
+    padding: 106px 322px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+    align-self: stretch;
+    
+    /* Style */
+    background-image: url("/960px.jpg");
+    background-size: cover;
+}
+
+.h-group {
+
+}
+
+
+
+.credit {
+color: #000;
+
+/* Headline 4 */
+font-family: Geologica;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.010px;
+}
 
 /** Typography */
 
@@ -41,4 +76,28 @@ nav {
     font-weight: 600;
     line-height: normal;
     letter-spacing: 0.27px;
+}
+
+h1 {
+    color: #000;
+
+/* Headline 1 */
+font-family: Geologica;
+font-size: 104px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: -1.56px;
+}
+
+h4 {
+color: #000;
+
+/* Headline 4 */
+font-family: Geologica;
+font-size: 37px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.093px;
 }
