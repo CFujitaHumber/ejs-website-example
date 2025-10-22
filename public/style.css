@@ -1,0 +1,44 @@
+* {
+    --Secondary: #A6D9F7;
+
+    --Secondary-Text: #FFF;
+}
+nav {
+    /* Layout */
+    padding: 15px;
+
+    /* Style */
+    border-radius: 8px;
+    background: var(--Secondary, #A6D9F7);
+}
+nav ul {
+    /* Layout */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+
+    /* Style */
+    list-style-type: none;
+}
+
+nav a:link , nav a:visited{
+    color: var(--Secondary-Text, #FFF);
+    text-decoration: none;
+}
+
+nav ul li:first-child {
+    margin-right: auto;
+}
+
+
+/** Typography */
+
+nav {
+    font-family: Geologica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.27px;
+}
