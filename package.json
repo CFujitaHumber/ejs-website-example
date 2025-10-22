@@ -1,0 +1,19 @@
+{
+  "name": "ejs-website-example",
+  "version": "0.0.1",
+  "description": "An example ejs website server",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CFujitaHumber/ejs-website-example.git"
+  },
+  "author": "Carson Fujita",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/CFujitaHumber/ejs-website-example/issues"
+  },
+  "homepage": "https://github.com/CFujitaHumber/ejs-website-example#readme"
+}
