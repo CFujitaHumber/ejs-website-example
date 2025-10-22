@@ -1,103 +1,127 @@
 * {
-    --Secondary: #A6D9F7;
+  --Secondary: #a6d9f7;
 
-    --Secondary-Text: #FFF;
+  --Secondary-Text: #fff;
 }
 nav {
-    /* Layout */
-    padding: 15px;
+  /* Layout */
+  padding: 15px;
 
-    /* Style */
-    border-radius: 8px;
-    background: var(--Secondary, #A6D9F7);
+  /* Style */
+  border-radius: 8px;
+  background: var(--Secondary, #a6d9f7);
 }
 nav ul {
-    /* Layout */
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 15px;
+  /* Layout */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
 
-    /* Style */
-    list-style-type: none;
+  /* Style */
+  list-style-type: none;
 }
 
-nav a:link , nav a:visited{
-    color: var(--Secondary-Text, #FFF);
-    text-decoration: none;
+nav a:link,
+nav a:visited {
+  color: var(--Secondary-Text, #fff);
+  text-decoration: none;
 }
 
 nav ul li:first-child {
-    margin-right: auto;
+  margin-right: auto;
 }
 
 /** Home page */
 
 .big-welcome-container {
-    /* Layout */
-    display: flex;
-    height: 510px;
-    padding: 106px 322px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-    flex-shrink: 0;
-    align-self: stretch;
-    
-    /* Style */
-    background-image: url("/960px.jpg");
-    background-size: cover;
+  /* Layout */
+  display: flex;
+  height: 510px;
+  padding: 106px 322px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+  align-self: stretch;
+
+  /* Style */
+  background-image: url("/960px.jpg");
+  background-size: cover;
 }
-
-.h-group {
-
-}
-
-
 
 .credit {
-color: #000;
+  color: #000;
 
-/* Headline 4 */
-font-family: Geologica;
-font-size: 10px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 0.010px;
+  /* Headline 4 */
+  font-family: Geologica;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.01px;
+}
+
+/** Team Page */
+.team-view {
+  display: flex;
+  padding: 57px 231px;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  row-gap: 10px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.name {
+  color: var(--Text-Secondary, #3a5683);
+  font-size: 15px;
+  font-family: Geologica;
+  font-weight: 500;
+  letter-spacing: 0.19px;
+  word-wrap: break-word;
+}
+.department {
+  color: var(--Text-Secondary, #3a5683);
+  font-size: 11px;
+  font-family: Geologica;
+  font-weight: 400;
+  letter-spacing: 0.17px;
+  word-wrap: break-word;
 }
 
 /** Typography */
 
 nav {
-    font-family: Geologica;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: 0.27px;
+  font-family: Geologica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.27px;
 }
 
 h1 {
-    color: #000;
+  color: #000;
 
-/* Headline 1 */
-font-family: Geologica;
-font-size: 104px;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
-letter-spacing: -1.56px;
+  /* Headline 1 */
+  font-family: Geologica;
+  font-size: 104px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: -1.56px;
 }
 
 h4 {
-color: #000;
+  color: #000;
 
-/* Headline 4 */
-font-family: Geologica;
-font-size: 37px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 0.093px;
+  /* Headline 4 */
+  font-family: Geologica;
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.093px;
 }

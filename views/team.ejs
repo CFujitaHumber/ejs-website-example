@@ -1,5 +1,11 @@
 <%- include("partials/header", {title: "About Us"}) %>
 <main>
-
+    <div style="width: 100%; text-align: center; color: black; font-size: 37px; font-family: Geologica; font-weight: 400; letter-spacing: 0.09px; word-wrap: break-word">Meet the Team</div>
+    <div class="team-view">
+        <%- include("components/TeamCard", {name: "John", department: "Coolness", src: "https://randomuser.me/api/portraits/men/1.jpg"}) %>
+        <%- include("components/TeamCard", {name: "John", department: "Coolness", src: "https://randomuser.me/api/portraits/men/1.jpg"}) %>
+        <%- include("components/TeamCard", {name: "John", department: "Coolness", src: "https://randomuser.me/api/portraits/men/1.jpg"}) %>
+        <%- include("components/TeamCard", {name: "John", department: "Coolness", src: "https://randomuser.me/api/portraits/men/1.jpg"}) %>
+    </div>
 </main>
 <%- include ("partials/footer") %>
