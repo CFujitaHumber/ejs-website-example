@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/CFujitaHumber/ejs-website-example/issues"
   },
-  "homepage": "https://github.com/CFujitaHumber/ejs-website-example#readme"
+  "homepage": "https://github.com/CFujitaHumber/ejs-website-example#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  }
 }
